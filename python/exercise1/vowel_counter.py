@@ -4,15 +4,18 @@ def num_vowels(text):
     """Return the number of vowels in string."""
     vowels = "aeiou"
     num = 0
-    for v in vowels:
-        num += text.lower().count(v)        
+    for letter in text:
+        if letter in vowels
+        num += 1       
     return num
 
 def num_consonants(text):
     vowels = "aeiou"
+    num = 0
     for letter in text:
         if letter not in vowels:
-            print("consonant", letter)
+            num += 1
+    return num
     
 text = str(input("Enter a sentence: "))
 
